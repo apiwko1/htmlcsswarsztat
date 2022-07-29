@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">    
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -25,6 +27,8 @@
     </header>
 
     <nav class="main-menu">
+        <label for="drop-nav">Menu</label>
+        <input type="checkbox" id="drop-nav">
         <ul>
             <li class="menu-item"><a href="#about">O mnie </a></li>
             <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
@@ -115,11 +119,22 @@
                 <input type="email" name="email" id="email" placeholder="e-mail">
                 <textarea name="message" id="message" placeholder="Wiadomość"></textarea>
                 <input type="submit" value="Wyślij" class="btn">
-            </form>         
+            </form>  
+            <div class="social-links">
+                <a href="" class="social-link"><i class="fab fa-facebook-square"></i></a>
+                <a href="" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>       
         </div>
     </section>
 
-    <footer>
+    <footer class="main-footer">
+        <div class="container">
+            <p>
+                copyright &copy; 2022   
+            </p>
+        </div>
 
     </footer>
 </body>
